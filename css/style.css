@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Import Fonts */
+@import url(http://fonts.googleapis.com/css?family=Coustard|Open+Sans);
+
+html,body, .main{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	color: #777;
+	margin: 0;
+	height: 100%;
+  	float: left;
+}
+
+.social-nav {
+	position:absolute;
+	top: 0px;
+	left: 40px;
+}
+.social-nav ul {margin: 0; padding:0;}
+.social-nav ul li{
+	list-style: none;
+	display:block;
+	float: left;
+	background: #393939;
+	padding:100px 10px 5px 10px;
+	margin: 1px;
+	opacity: .5;
+}
+.social-nav ul li:hover {opacity: 1;}
+
+.logo{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	right: 5%;
+  	float: right;
+}
+
+.main-nav{
+  float: left;
+  margin: 0 0 0 100px;
+}
+
+.main-nav ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #b7b7b7;	
+}
+
+.container{
+	width: 40%;
+	margin: 0 5%;
+	height: 100%;
+	float: left;
+	clear: both;
+	display: none;
+}
+
+.container .to-down{
+	position: relative;
+	top: 30%;
+}
+
+a {
+	  color: #b7b7b7;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:active {
+	color: #ffa800;
+}
+
+
+#home{
+	display: block;	
+}
+
+#about h5{
+	font-size: 28px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+	color: #b7b7b7;
+}
+
+#contact h5 {
+  font-size: 28px;
+  line-height: 35px;
+  padding: 0;
+  margin: 0;
+  color: #b7b7b7;
+  margin-left:25%;
+  }
+
+#contact p {
+	width:280px;
+	margin-left:25%;
+}
+
+@media (max-width: 840px) {
+	.logo {
+		max-width: 45%
+	}
+	
+	.container .to-down { 
+		top:24%;
+	}
+	
+}
+
+@media (max-width: 640px) {
+	.container {
+  		width: 95%;
+	}
+	
+	.container .to-down {
+  		top: 62%;
+	}
+	
+	
+	.logo {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  position: absolute;
+  right: 41%;
+  float: left;
+  top: 20%;
+	
+}
+}
+
+@media (max-width:500px) {
+	.logo {
+		max-width:40%;
+		right:28%;
+		top:16%;
+	}
+	
+	.container .to-down {
+		top: 56%;
+	}
+}
+
+@media (max-width:499px) {
+	
+	.social-nav {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+	}
+	
+	.main-nav {
+  float: left;
+  margin: 0px 0 0 66px;
+}
+
+.logo {
+  max-width: 50%;
+  right: 22%;
+  top: 21%;
+}
+
+.container .to-down {
+  top: 69%;
+}
+
+.container .to-down {
+  top: 69%;
+}
+
+#contact h5 {
+	margin-left:09%
+}
+}
+
+@media (max-width:381px) {
+	.container .to-down {
+  top: 56%;
+	}
+	#contact p {
+		margin-left:09%;
+	}
+}
